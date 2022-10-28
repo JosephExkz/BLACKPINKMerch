@@ -1,0 +1,332 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+/*Title Section*/
+#title{
+  padding: 3% 10% 5%;
+  background-color: black;
+}
+.brand-title{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #F4A7BB;
+}
+
+.links{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.20rem;
+  color: #F4A7BB;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.title-quote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1.5;
+  color: #F4A7BB;
+}
+.btn-youtube{
+  margin: 5% 3% 5%;
+  padding: 2% 15% 2%;
+  font-size: 1.3rem;
+}
+.fa-brands{
+  margin-right: 8px;
+}
+.title-img{
+  width: 120%;
+  position: absolute;
+}
+
+/*Features Section*/
+#features{
+  padding: 4%;
+  text-align: center;
+  background-color: #F4A7BB;
+  z-index: 1;
+  position: relative;
+}
+.blackpink-polaroid{
+  width: 100%;
+  margin: 12px;
+}
+.feature-title{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.feature-col{
+  padding: 2%;
+}
+
+/*Album Section*/
+#album{
+  background-color: #B7657C;
+  text-align: center;
+  color: white;
+}
+.album-image{
+  border-radius: 10%;
+  width: 30%;
+  margin: 20px;
+}
+.album-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: black;
+}
+.carousel-item{
+  padding: 2% 14%;
+}
+.release-date{
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: black;
+}
+.date{
+  color: black;
+  font-size: 1.2rem;
+}
+
+/*stream Section*/
+#stream{
+  background-color: #F4A7BB;
+  text-align: center;
+  padding: 6%;
+}
+.stream-logo{
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing{
+  text-align: center;
+  padding: 100px;
+  background-color: black;
+}
+.card{
+  height: 560px;
+}
+.price-heading, .price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #F4A7BB;
+}
+.album-title{
+  font-weight: 700;
+}
+.tagline-price{
+  color: #F4A7BB;
+}
+.ktl-songs{
+  position: relative;
+  top: 40px;
+  bottom: 100px;
+}
+.ktl-purchase{
+  position: relative;
+  top: 320px;
+}
+.ktl-list{
+  position: absolute;
+  top: 220px;
+  left: 120px;
+}
+
+/*music-video Section*/
+#music-video{
+  background-color: #F4A7BB;
+  padding: 5% 10%;
+  text-align: center;
+}
+.music-video-title{
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+  color:  black;
+  margin: 8px 10px 15px;
+}
+
+/*Footer Section*/
+#footer{
+  background-color: #B7657C;
+  text-align: center;
+  padding: 3% 14%;
+}
+.foot-icon{
+  padding: 20px 10px;
+  color: black;
+}
+
+@media (max-width: 1024px){
+  .title-quote{
+    font-size: 3rem;
+  }
+  .title-img{
+    transform: rotate(0);
+  }
+  .btn-download{
+    margin-right: 6px;
+  }
+  .card{
+    height: 505px;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+  .ktl-purchase{
+    position: relative;
+    top: 105px;
+  }
+}
+
+@media (max-width: 768px){
+  .title-img{
+    position: relative;
+    left: 100px;
+    width: 60%;
+  }
+  .column-one{
+    text-align: center;
+  }
+  #title{
+    padding: 3% 10% 0%;
+    background-color: black;
+  }
+  .blackpink-polaroid{
+    width: 50%;
+  }
+  #pricing{
+    text-align: center;
+    padding: 80px;
+    background-color: black;
+  }
+  .card{
+    margin: 15px;
+  }
+}
+@media (max-width: 425px){
+  .ktl-purchase{
+    position: relative;
+    top: 100px;
+  }
+  .ktl-songs{
+    position: relative;
+    top: 40px;
+  }
+  .price-heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #F4A7BB;
+  }
+  .album-title{
+    font-weight: 700;
+  }
+  .card{
+    height: 570px;
+  }
+  .title-quote{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2 rem;
+    line-height: 1.5;
+    color: #F4A7BB;
+  }
+  .album-text{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: black;
+  }
+  .carousel-item{
+    padding: 3% 14%;
+  }
+}
+@media (max-width: 320px){
+  .ktl-purchase{
+    position: relative;
+    top: 100px;
+  }
+  .ktl-songs{
+    position: relative;
+    top: 40px;
+  }
+  .price-heading, .price-text{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #F4A7BB;
+  }
+  .album-title{
+    font-weight: 700;
+  }
+  .title-quote{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #F4A7BB;
+  }
+  .album-text{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: black;
+  }
+  .carousel-item{
+    padding: 3% 14%;
+  }
+  .blackpink-polaroid{
+    width: 60%;
+    margin: 12px;
+  }
+  .feature-title{
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .release-date{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: black;
+  }
+  .date{
+    color: black;
+    font-size: 1rem;
+  }
+  .tagline-price{
+    color: #F4A7BB;
+    font-size: 0.8rem;
+  }
+  .album-title{
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .purchase-button{
+    font-size: 10px;
+  }
+  .song-list{
+    font-size: 9px;
+  }
+  .ktl-list{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+  .ktl-purchase{
+    position: absolute;
+    top: 90%;
+    left: 2%;
+  }
+
+}
